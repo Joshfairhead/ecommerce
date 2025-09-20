@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:3ba8dfbcfee2f5175444a25986ffbd5cb7bb52cb7ab4bca378a7e951768daf25"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Shopping Cart & Checkout Module
 
 ## Overview

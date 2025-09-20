@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:d379698f2e68488f3c87947724323ab6920632a82eb14ed9f5f7c92c89e06594"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Data Models Specification
 
 ## Overview

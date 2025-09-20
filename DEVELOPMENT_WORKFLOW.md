@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:45Z"
+content_hash: "sha256:816d5e30434c9c9de0c0ec6001a3984d55e2435919a3b2e2a20f260e45e57872"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Specification-to-Code Development Workflow
 
 ## Overview

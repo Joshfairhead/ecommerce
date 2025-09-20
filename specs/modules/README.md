@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:be2e2e8c0e92411fdc9ba8c4a18d29ef013d24abf89189e94b9464a6ac3b7ce7"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Core Modules Specification
 
 ## Module Overview

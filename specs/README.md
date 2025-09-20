@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:90c1c399202f33f0dd27ed111c5e7181f6a34363f20d8ebe4190cadf6440ea0c"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Modular eCommerce Platform Specification
 
 This directory contains the modular specification for the eCommerce platform. Each section is broken into focused, manageable chunks that can be developed and modified incrementally.

@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.1"
+last_updated: "2025-09-20T14:23:21Z"
+content_hash: "sha256:70f6978c5edc8f4146f2ea97dd9d0dfdc90686374bdf918b3e357a14c8e9ce2c"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Modern eCommerce Platform Specification
 
 ## Executive Summary

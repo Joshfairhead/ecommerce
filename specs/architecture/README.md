@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:a38256a64be7f5303d4081cc18df2fd82646903ad14c9486a2893e997b2b1f83"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Architecture Specification
 
 ## High-Level Architecture

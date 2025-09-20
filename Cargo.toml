@@ -1,0 +1,69 @@
+[package]
+name = "ecommerce-platform"
+version = "0.1.0"
+edition = "2021"
+description = "Modern eCommerce platform with dropshipping capabilities"
+license = "MIT"
+authors = ["Your Team"]
+
+[dependencies]
+# Core web framework
+actix-web = "4.0"
+# Or alternatively use axum:
+# axum = "0.7"
+
+# Database
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres", "uuid", "chrono"] }
+# Redis for caching
+redis = { version = "0.23", features = ["tokio-comp"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# UUID support
+uuid = { version = "1.0", features = ["v4", "serde"] }
+
+# DateTime handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# Async runtime
+tokio = { version = "1.0", features = ["full"] }
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Configuration
+config = "0.13"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Password hashing
+argon2 = "0.5"
+
+# JWT tokens
+jsonwebtoken = "9.0"
+
+# HTTP client for supplier integrations
+reqwest = { version = "0.11", features = ["json"] }
+
+# Decimal arithmetic for currency
+rust_decimal = { version = "1.0", features = ["serde"] }
+
+[dev-dependencies]
+# Development and testing tools
+# spec-sync = "1.0.0"  # Will be installed via: cargo install spec-sync
+
+[[bin]]
+name = "ecommerce-server"
+path = "src/main.rs"
+
+[package.metadata.scripts]
+# Custom scripts for development workflow
+spec-status = "spec-sync status"
+spec-validate = "spec-sync validate"
+dev = "cargo watch -x run"
+test-all = "cargo test --workspace"

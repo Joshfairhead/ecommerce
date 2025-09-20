@@ -1,3 +1,12 @@
+---
+spec_version: "1.1.0"
+last_updated: "2025-09-20T14:25:34Z"
+content_hash: "sha256:ba31ad82e0d4639c9abcf65fe8b02a45f2745123c2da8b63f93f8b2823a36357"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Authentication & Authorization Module
 
 ## Overview
@@ -47,6 +56,9 @@ sequenceDiagram
 - Audit logging
 - CSRF protection
 - Input validation and sanitization
+- Rate limiting per user type
+- IP-based blocking
+- Device fingerprinting
 
 ## API Endpoints
 

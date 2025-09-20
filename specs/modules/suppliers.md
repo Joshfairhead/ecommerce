@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:6d0ff5ee504b74bb6a4cc90a45926362efcf701063669511dfa8bb0ed39d7476"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Supplier Integration Module
 
 ## Overview

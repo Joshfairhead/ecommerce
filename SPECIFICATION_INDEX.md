@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:45Z"
+content_hash: "sha256:0fe85439ed61016cc7b6f20745280c3f46f0766ab8ee398b7d36e3cad0a219dd"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # eCommerce Platform Specification Index
 
 ## Overview
@@ -127,11 +136,29 @@ Complete guide for implementing features from specifications.
 - Automated validation where possible
 - Implementation feedback loops to improve specs
 
+## Tool Integration
+
+### 🔧 [Spec-Sync Tool](https://github.com/your-org/spec-sync)
+Universal specification-to-code synchronization tool (external project).
+- Version tracking and metadata management
+- Sync status detection and reporting
+- Code reference management
+- Multi-project support
+- **Installation**: `cargo install spec-sync`
+
+### 🔗 [Integration Guide](SPEC_SYNC_INTEGRATION.md)
+How the eCommerce platform uses the Spec-Sync tool.
+- Installation and setup
+- Development workflow integration
+- CI/CD pipeline configuration
+- Usage examples and best practices
+
 ## Related Documents
 
 - `README.md` - Project overview and setup
 - `SPECIFICATION.md` - Original monolithic specification (legacy)
 - `DEVELOPMENT_WORKFLOW.md` - Implementation process guide
+- `SPEC_SYNC_INTEGRATION.md` - Tool integration guide
 
 ## Contributing
 

@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:d6f53e97b9012f2ddc1862e4ed28137f7e1d1cdfa731914723a14bee47b6610d"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # User Roles & Permissions
 
 ## Customer

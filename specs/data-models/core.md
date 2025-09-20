@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:97f0138e8dcd1da2a838af109e7fc5836cc0be42ba4dad949ddd1e990fdff4c0"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # Core Data Models
 
 ## User Entity

@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:c556cab5d2817222c5af7c448fd2a0e200881620b1ed04b270e6bb5fb57dc966"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # API Specifications
 
 ## Overview

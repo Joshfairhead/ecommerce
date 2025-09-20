@@ -1,3 +1,12 @@
+---
+spec_version: "1.0.0"
+last_updated: "2025-09-20T14:20:40Z"
+content_hash: "sha256:e57c004004ec72867f4ec6869ff0a5027901e8f63e051bb082eb46cee68851ae"
+dependencies: []
+implementation_status: "not_started"
+code_references: []
+---
+
 # User Flows Specification
 
 ## Overview
